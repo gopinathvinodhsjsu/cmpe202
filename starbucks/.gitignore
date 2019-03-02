@@ -1,0 +1,12 @@
+bin/
+.gradle
+/build/
+*.class
+*.log
+
+gradle-app.setting
+
+!gradle-wrapper.jar
+
+.gradletasknamecache
+.DS_Store
