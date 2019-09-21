@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class GumballMachine
 {
 
@@ -38,5 +40,11 @@ public class GumballMachine
     	{
     		System.out.println( "Please insert a quarter" ) ;
     	}        
+    }
+    public static void main(String args[]) {
+    	Scanner sc = new Scanner(System.in);
+    	System.out.println("Which machine you want to use?");
+    	System.out.println("1. c25\t2. c50\t3. 50(accepts any coin)");
+    	sc.nextLine();
     }
 }
