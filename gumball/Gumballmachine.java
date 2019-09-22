@@ -30,6 +30,7 @@ enum Coins_kind {quarter(25), dime(10), nickle(5);
      void get_GumballMachine_information(){
          System.out.println("The price of per Gumball is: " + this.price_per_gumball + " cents");
          System.out.println("The acceptable coins are: ");
+      // print the acceptable coins, such as quarter, dime, nickle.
          for (Coins_kind c : this.coin) System.out.print(c + " ");
          System.out.println();
          System.out.println();
